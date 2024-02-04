@@ -7,5 +7,6 @@ template-file-path: "./website/iac/cfn/codepipeline/deploy.yaml"
 parameters: 
   InfrastructureName: "ngamradt-demo"
   BucketBaseName: "website"
+  RepositoryName: "cfn-git-sync-demo"
 # tags:
 #   key: "value"
